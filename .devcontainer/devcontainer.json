@@ -1,0 +1,15 @@
+{
+    "image": "temporalio/gitpod-edu:1.4",
+    "customizations": {
+        "codespaces": {
+            "openFiles": [
+                "README.md"
+            ]
+        }
+    },
+    "forwardPorts": [8080, 8233, 7233, 9999],
+    "postStartCommand": "temporal server start-dev",
+    "remoteEnv": {
+        "PROMPT_DIRTRIM": "2"
+    }
+}
