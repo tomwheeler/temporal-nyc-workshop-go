@@ -1,6 +1,6 @@
-# temporal-nyc-workshop-go
-Hands-On Exercises for the Temporal Workshop that I am teaching
-on August 5th in New York City.
+# Launch-and-Learn Workshop (Go)
+Hands-On Exercises for the Temporal Launch-and-Learn Workshop that I am
+teaching in New York City on August 5th.
 
 ## Prerequisites
 We will use GitHub codespaces for this workshop, so there is nothing to
