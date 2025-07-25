@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	queries "interacting/exercises/querying-workflows/solution"
+	queries "workshop/exercises/querying-workflows/solution"
 
 	"go.temporal.io/sdk/client"
 )
