@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"encoding/json"
-	pizza "errstrat/exercises/non-retryable-error-types/solution"
+	pizza "workshop/exercises/non-retryable-error-types/solution"
 	"flag"
 	"fmt"
 	"log"
