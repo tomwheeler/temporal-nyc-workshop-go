@@ -1,7 +1,7 @@
 # Launching a Codespace
 
 GitHub Codespaces is a browser-based environment that you can use to 
-complete the exercises from this course without installing anything on 
+complete the exercises from this workshop without installing anything on 
 your local machine. This document explains how to launch and configure 
 the Codespaces environment.
 
@@ -58,7 +58,7 @@ a work terminal:
 
 ![8 — Bash Terminal](https://raw.githubusercontent.com/temporalio/temporal-learning/refs/heads/main/static/courses/common/codespaces/8-bash-terminal.png)
 
-Then, to create more work terminals for this course – you’ll usually need 2 
+Then, to create more work terminals for this workshop–you’ll usually need 2
 or 3 – use the drop-down arrow next to the "**+**" sign on top of where it 
 says bash, and in that drop-down menu, navigate to "Split Terminal," and 
 then "bash (Default)."
@@ -71,7 +71,7 @@ Repeat this for as many terminals as you need:
 
 You're all set. Don't forget that you can Ctrl+click on the links displayed 
 in the repository README to open the README for each individual exercise 
-as you progress through the course:
+as you progress through the workshop:
 
 ![11 — Exercise Readme](https://raw.githubusercontent.com/temporalio/temporal-learning/refs/heads/main/static/courses/common/codespaces/11-exercise-readme.png)
 
@@ -84,7 +84,7 @@ time it was used.
 
 ### Delete Your Codespaces
 
-Once you are done with this course or the exercises, manually delete your 
+Once you are done with this workshop's exercises, manually delete your 
 Codespaces. There are costs associated with storing Codespaces. You should 
 therefore delete any Codespaces you no longer need. Here are the steps you 
 need to take to delete your Codespaces:

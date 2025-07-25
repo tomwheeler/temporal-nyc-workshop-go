@@ -22,9 +22,16 @@ since it's required for the subsequent exercises too.
 
 ## Hands-On Exercises
 
-Directory Name                | Exercise
-:---------------------------- | :----------------------------
-`exercises/farewell-workflow` | [Exercise 1](exercises/farewell-workflow/README.md)
+Directory Name                        | Exercise
+:------------------------------------ | :----------------------------
+`exercises/farewell-workflow`         | [Exercise 1](exercises/farewell-workflow/README.md)
+`exercises/durable-execution`         | [Exercise 2](exercises/durable-execution/README.md)
+`exercises/sending-signals-client`    | [Exercise 3](exercises/sending-signals-client/README.md)
+`exercises/sending-signals-external`  | [Exercise 4](exercises/sending-signals-external/README.md) (Optional)
+`exercises/querying-workflows`        | [Exercise 5](exercises/querying-workflows/README.md)
+`exercises/non-retryable-error-types` | [Exercise 6](exercises/non-retryable-error-types/README.md)
+`exercises/rollback-with-saga`        | [Exercise 7](exercises/rollback-with-saga/README.md) (Optional)
+
 
 Each of these exercise directories contains two subdirectories: 
 1. `practice` - This is where you'll modify the code as instructed
@@ -33,7 +40,7 @@ Each of these exercise directories contains two subdirectories:
 
 ## Reference
 The following links provide additional information that you may find 
-helpful as you work through this course.
+helpful as you work through the hands-on exercises.
 * [General Temporal Documentation](https://docs.temporal.io/)
 * [General Go Language Documentation](https://go.dev/doc/)
 * [Temporal Go Developer Guide](https://docs.temporal.io/develop/go/)
