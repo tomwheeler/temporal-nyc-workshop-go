@@ -33,10 +33,10 @@ exercise, modify the error that is being returned to be retryable. To do
    ```bash
    go run start/main.go --creditcard 1234
    ```
-5. Go to the WebUI and view the status of the Workflow. It should be
+5. Go to the Web UI and view the status of the Workflow. It should be
    **Running**. Inspect the Workflow and see that it is currently retrying the
    error, verifying that the erorr is no longer non-retryable. You can
-   terminate this Workflow in the WebUI, as it will never successfully complete.
+   terminate this Workflow in the Web UI, as it will never successfully complete.
 6. Stop your Worker by using **Ctrl-C** in the terminal it is running in.
 
 ## Part B: Configure Retry Policies to set Non-Retryable Error Types
@@ -117,7 +117,7 @@ and `true` is returned. If it doesn't, then a delivery driver was unable to be
 contacted and false is returned and the `status` of the `OrderConfirmation` will
 be updated to reflect this.
 
-1. Open `workflow.go`. Locate the `NotifyDeliveryDriver` function and uncomment
+1. Open `workflow.go` and uncomment the `NotifyDeliveryDriver` function.
    it.
 2. Save and close the file.
 3. Next, open `activities.go`. Within the `NotifyDeliveryDriver` loop, above the
@@ -184,7 +184,7 @@ a Heartbeat that is timing out.
    go run start/main.go
    ```
 5. Once you see the first Heartbeat message appear in the logs, wait 15 seconds
-   and refresh the WebUI. You should see the same **Pending Activities**
+   and refresh the Web UI. You should see the same **Pending Activities**
    section, but now there is a failure indicating that the Heartbeat timed out.
    You will also see how many retries are left and how long until the next
    retry. If the Activity isn't fixed before the final attempt it will fail.
