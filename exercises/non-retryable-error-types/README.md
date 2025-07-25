@@ -1,10 +1,10 @@
-## Exercise #2: Modifying Activity Options Using Non-Retryable Error Types and Heartbeats
+# Exercise #6: Non-Retryable Error Types
 
 During this exercise, you will:
 
 - Configure non-retryable error types for Activities
 - Implement customize retry policies for Activities
-- Add Heartbeats and Heartbeat timeouts to help users monitor the health of Activities
+- Add Heartbeats and Heartbeat Timeouts to help users monitor the health of Activities
 
 Make your changes to the code in the `practice` subdirectory (look for
 `TODO` comments that will guide you to where you should make changes to
