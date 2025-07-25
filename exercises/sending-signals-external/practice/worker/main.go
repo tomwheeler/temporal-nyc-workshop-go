@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	pizza "interacting/exercises/sending-signals-external/practice"
+	pizza "workshop/exercises/sending-signals-external/practice"
 
 	"go.temporal.io/sdk/client"
 	"go.temporal.io/sdk/worker"

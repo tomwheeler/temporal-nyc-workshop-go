@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	pizza "interacting/exercises/sending-signals-external/practice"
+	pizza "workshop/exercises/sending-signals-external/practice"
 	"log"
 
 	"go.temporal.io/sdk/client"
