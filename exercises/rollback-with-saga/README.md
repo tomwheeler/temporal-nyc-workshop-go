@@ -1,4 +1,4 @@
-## Exercise #3: Rollback with the Saga Pattern
+## Exercise #7 (Optional): Rollback with the Saga Pattern
 
 During this exercise, you will:
 

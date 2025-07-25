@@ -1,4 +1,5 @@
-# Exercise 2: Farewell Workflow
+# Exercise #1: Farewell Workflow
+
 During this exercise, you will create an Activity function,
 register it with the Worker, and modify a Workflow to execute it.
 
